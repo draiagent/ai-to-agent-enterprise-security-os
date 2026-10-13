@@ -1,0 +1,235 @@
+[
+  {
+    "id": "T01",
+    "expected": "ALLOW",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T02",
+    "expected": "DENY",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": false,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T03a",
+    "expected": "DENY",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": true,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T03b",
+    "expected": "DENY",
+    "request": {
+      "stop": false,
+      "revoked": true,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T04",
+    "expected": "UNKNOWN",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": false,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T05",
+    "expected": "ALLOW",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A2",
+      "preauthorized": true,
+      "reversible": true,
+      "critical": false,
+      "recovery_ready": true
+    }
+  },
+  {
+    "id": "T06",
+    "expected": "REVIEW",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A2",
+      "preauthorized": false,
+      "reversible": true,
+      "critical": false,
+      "recovery_ready": true
+    }
+  },
+  {
+    "id": "T07",
+    "expected": "REVIEW",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A4"
+    }
+  },
+  {
+    "id": "T08",
+    "expected": "DENY",
+    "request": {
+      "stop": true,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T09a",
+    "expected": "DENY",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": false,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T09b",
+    "expected": "DENY",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": false,
+      "evidence_ok": true,
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T10a",
+    "expected": "REVIEW",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A3",
+      "preauthorized": true,
+      "reversible": true,
+      "critical": true,
+      "recovery_ready": true
+    }
+  },
+  {
+    "id": "T10b",
+    "expected": "REVIEW",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A2",
+      "preauthorized": true,
+      "reversible": true,
+      "critical": false,
+      "recovery_ready": false
+    }
+  },
+  {
+    "id": "T19",
+    "expected": "UNKNOWN",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": true,
+      "level": "A5"
+    }
+  },
+  {
+    "id": "T20",
+    "expected": "UNKNOWN",
+    "request": {
+      "stop": false,
+      "revoked": false,
+      "in_scope": true,
+      "expired": false,
+      "tool_allowed": true,
+      "action_allowed": true,
+      "evidence_ok": "yes",
+      "level": "A0"
+    }
+  },
+  {
+    "id": "T21",
+    "expected": "UNKNOWN",
+    "request": {
+      "level": "A0"
+    }
+  }
+]

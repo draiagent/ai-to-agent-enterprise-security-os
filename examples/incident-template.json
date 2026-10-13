@@ -1,0 +1,29 @@
+{
+  "event_id": "DEMO-001",
+  "data_classification": "synthetic",
+  "goal": "驗證遠端工具停用狀態",
+  "asset_owner": "示範資產管理員",
+  "assets": [
+    "LAB-PC-01"
+  ],
+  "max_authority": "A0",
+  "forbidden_actions": [
+    "system_changes",
+    "credential_access",
+    "out_of_scope_collection"
+  ],
+  "evidence_sources": [],
+  "tool_versions": {},
+  "policy_version": null,
+  "authorization": null,
+  "deadline": null,
+  "budget": {
+    "max_auto_corrections": 2
+  },
+  "acceptance": [
+    "停用狀態有獨立證據",
+    "業務功能驗證通過"
+  ],
+  "rollback_plan": "唯讀階段無系統變更；處置前另行制定",
+  "status": "UNKNOWN"
+}

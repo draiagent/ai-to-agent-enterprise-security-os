@@ -1,0 +1,3 @@
+# SHA256SUMS.json 以位元組雜湊驗證整個 Repo：文字檔統一以 LF 儲存與檢出，PNG 視為二進位不轉換
+* text=auto eol=lf
+*.png binary

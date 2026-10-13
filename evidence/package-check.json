@@ -1,0 +1,8 @@
+{
+  "credential_pattern_scan": "PASS",
+  "sensitive_filename_scan": "PASS",
+  "issues": [],
+  "scope": "limited patterns, text files only",
+  "license": "PENDING",
+  "runtime": "UNVERIFIED"
+}

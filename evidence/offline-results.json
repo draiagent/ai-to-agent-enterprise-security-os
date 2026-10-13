@@ -1,0 +1,103 @@
+{
+  "mode": "offline-synthetic-only",
+  "total": 16,
+  "passed": 16,
+  "results": [
+    {
+      "id": "T01",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "passed": true
+    },
+    {
+      "id": "T02",
+      "expected": "DENY",
+      "actual": "DENY",
+      "passed": true
+    },
+    {
+      "id": "T03a",
+      "expected": "DENY",
+      "actual": "DENY",
+      "passed": true
+    },
+    {
+      "id": "T03b",
+      "expected": "DENY",
+      "actual": "DENY",
+      "passed": true
+    },
+    {
+      "id": "T04",
+      "expected": "UNKNOWN",
+      "actual": "UNKNOWN",
+      "passed": true
+    },
+    {
+      "id": "T05",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "passed": true
+    },
+    {
+      "id": "T06",
+      "expected": "REVIEW",
+      "actual": "REVIEW",
+      "passed": true
+    },
+    {
+      "id": "T07",
+      "expected": "REVIEW",
+      "actual": "REVIEW",
+      "passed": true
+    },
+    {
+      "id": "T08",
+      "expected": "DENY",
+      "actual": "DENY",
+      "passed": true
+    },
+    {
+      "id": "T09a",
+      "expected": "DENY",
+      "actual": "DENY",
+      "passed": true
+    },
+    {
+      "id": "T09b",
+      "expected": "DENY",
+      "actual": "DENY",
+      "passed": true
+    },
+    {
+      "id": "T10a",
+      "expected": "REVIEW",
+      "actual": "REVIEW",
+      "passed": true
+    },
+    {
+      "id": "T10b",
+      "expected": "REVIEW",
+      "actual": "REVIEW",
+      "passed": true
+    },
+    {
+      "id": "T19",
+      "expected": "UNKNOWN",
+      "actual": "UNKNOWN",
+      "passed": true
+    },
+    {
+      "id": "T20",
+      "expected": "UNKNOWN",
+      "actual": "UNKNOWN",
+      "passed": true
+    },
+    {
+      "id": "T21",
+      "expected": "UNKNOWN",
+      "actual": "UNKNOWN",
+      "passed": true
+    }
+  ]
+}
